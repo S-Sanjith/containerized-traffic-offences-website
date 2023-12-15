@@ -1,0 +1,223 @@
+/*NAVBAR*/
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgba(0,0,255,0.5);
+    
+    }
+    .navbar > a{
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        font-size: x-large; 
+        padding: 2rem;
+       margin: 1rem;
+      
+    
+        
+    }
+    .nav-titles{
+        box-sizing: border-box;
+    }
+    
+    
+    
+    .none{
+        display: none;
+    }
+
+
+/*FOOTER*/
+
+.footer--div{
+    border-top: 1px solid black;
+    padding: 1rem;
+    height: 7vh;
+ position:relative;
+ bottom: 0; 
+ background-color: rgba(0,0,255,0.5);
+}
+
+/*LANDING*/
+.landing{
+    height: 100vh;
+   background-image: linear-gradient(rgba(0,0,255,0.35), white,rgba(0,0,255,0.35));
+   display: flex;
+   align-items: center;
+}
+
+.landing--img{
+max-width: 80%;
+border-radius: 12px;
+
+align-self: flex-end;
+background:transparent;
+}
+.landing-para{
+    width: 50%;
+    padding: 1rem;
+    margin: 0;
+    margin-left: 1rem;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 12px;
+}
+
+
+.img--cnt{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+
+/*ADD*/
+.add{
+    height: 100vh;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        
+        padding: 2rem;
+        font-size: x-large;
+        border: 2px solid black;
+        border-radius: 12px;
+    }
+    .form input{
+       
+        border-radius: 12px;
+        border-style: none;
+        background-color: rgba(128,128,128,0.45);
+        height: 2rem;
+    }
+    #ispaid{
+        width: fit-content;
+    }
+    .otype{
+        
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
+    .form select{
+        border-radius: 12px;
+       
+        border-style: none;
+        font-size: large;
+       
+        
+    }
+    .btn--{
+        width: max-content;
+        align-self: center;
+        margin-top: 1rem;
+        padding: 5px;
+        border-radius: 12px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-size: large;
+    }
+    .btn--:hover{
+        transform: scale(1.02);
+        transition-delay: 1s;
+        
+    }
+    
+    
+    
+    .none{
+        display: none;
+    }
+
+/*VIEW*/
+.offence--tables{
+    display: table;
+    table-layout:fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 0.2rem;
+  
+    
+}
+.heading{
+    background-color: blue;
+    color:white;
+}
+.cnt{
+    height: 100vh;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.edit--link{
+    font-size: small;
+    
+   
+}
+.searchbar {
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+
+
+.search {
+    width: 30%;
+    display: flex;
+}
+
+/*IMPOUND DETAILS*/
+.impound--main{
+    padding: 2rem;
+    height: 100vh;
+}
+.impound--cnt{
+    box-sizing: border-box;
+    
+    width: 60%;
+   
+  
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 12px;
+   
+    padding: 2rem;
+}
+.impound--cnt > h1{
+    margin-top: 0;
+    text-align: center;
+}
+
+.impound--table{
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.impound--main table, th, td {
+   
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.25rem;
+  }
+
+  
+/*VEHICLE DETAILS*/
