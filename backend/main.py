@@ -19,10 +19,17 @@ app.config['SECRET_KEY']='JWTAuthKey'
 
 #DB config 
  
-app.config['MYSQL_HOST'] = os.getenv('MYSQL_HOST', 'mysql')
+app.config['MYSQL_HOST'] = os.getenv('MYSQL_HOST', 'cc-aat-mysql-server.mysql.database.azure.com')
 app.config['MYSQL_USER'] = os.getenv('MYSQL_USER', 'flaskuser')
-app.config['MYSQL_PASSWORD'] = os.getenv('MYSQL_PASSWORD', 'flaskuser')
+app.config['MYSQL_PASSWORD'] = os.getenv('MYSQL_PASSWORD', 'admin123#')
 app.config['MYSQL_DB'] = os.getenv('MYSQL_DB', 'TrafficDb')
+app.config['MYSQL_PORT'] = int(os.getenv('MYSQL_PORT', 3306))
+app.config['MYSQL_SSL_CA'] = os.getenv('MYSQL_SSL_CA', './DigiCertGlobalRootCA.crt.pem')
+
+# app.config['MYSQL_HOST'] = os.getenv('MYSQL_HOST', 'mysql')
+# app.config['MYSQL_USER'] = os.getenv('MYSQL_USER', 'flaskuser')
+# app.config['MYSQL_PASSWORD'] = os.getenv('MYSQL_PASSWORD', 'flaskuser')
+# app.config['MYSQL_DB'] = os.getenv('MYSQL_DB', 'TrafficDb')
 
 # app.config['MYSQL_HOST'] = 'mysql'
 # app.config['MYSQL_USER'] = 'flaskuser'
