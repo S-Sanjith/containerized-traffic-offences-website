@@ -1,3 +1,4 @@
 flask-env/
 extra_commands.txt
 .env
+backend/DigiCertGlobalRootCA.crt.pem
